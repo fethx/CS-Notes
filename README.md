@@ -15,3 +15,11 @@
 - [Potpourri](https://missing.csail.mit.edu/2020/potpourri)
 - [Q&amp;A](https://missing.csail.mit.edu/2020/qa)
 
+
+## 2. C++
+### Course
+Stanford University [CS 106L: Standard C++ Programming](http://web.stanford.edu/class/cs106l/index.html)
+
+### Books
+[The Definitive C++ Book Guide and List](https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list/388282#388282)
+
