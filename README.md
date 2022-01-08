@@ -33,7 +33,7 @@ Stanford University [CS 106L: Standard C++ Programming](http://web.stanford.edu/
 ### STL <a id="stl"></a>
 
 #### STL containers 
-![STL Container Types](https://github.com/fethx/CS-Notes/images/stl-container-types.png)
+![STL Container Types](https://github.com/fethx/CS-Notes/tree/main/images/stl-container-types.png)
 >*The C++ Standard Library A Tutorial and Reference by Nicolai M. Josuttis. Figure 6.2. STL Container Types.*
 
 | Containers | Type | Underlying data structure | Time complexity | Other |
