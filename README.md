@@ -32,8 +32,14 @@ Stanford University [CS 106L: Standard C++ Programming](http://web.stanford.edu/
 
 ### STL <a id="stl"></a>
 
-#### STL container 
+#### STL containers 
+![STL Container Types](https://github.com/fethx/CS-Notes/images/stl-container-types.png)
+>*The C++ Standard Library A Tutorial and Reference by Nicolai M. Josuttis. Figure 6.2. STL Container Types.*
 
-Container | Underlying data structure | Time complexity | Other
----|---|---|---
-[deque](https://en.cppreference.com/w/cpp/container/deque) | The elements of a deque are not stored contiguously: typical implementations use a sequence of individually allocated fixed-size **arrays**, with additional bookkeeping. | 1. Random access - constant O(1) <br /> 2. Insertion or removal of elements at the end or beginning - constant O(1) <br /> 3. Insertion or removal of elements - linear O(n) | | | The storage of a deque is automatically **expanded** and **contracted** as needed.
+| Containers | Type | Underlying data structure | Time complexity | Other |
+|---|---|---|---|---|
+[vector](https://en.cppreference.com/w/cpp/container/vector) | sequence container | contiguous; dynamic array |1. Random access - constant 𝓞(1) <br /> 2. Insertion or removal of elements at the end - amortized constant 𝓞(1) <br /> 3. Insertion or removal of elements - linear in the distance to the end of the vector 𝓞(n)  | The storage of the vector is handled automatically, being expanded and contracted as needed.
+[deque](https://en.cppreference.com/w/cpp/container/deque) <br />An abbreviation for “double-ended queue.”| sequence container  | The elements of a deque are not stored contiguously: typical implementations use a sequence of individually allocated fixed-size **arrays**, with additional bookkeeping. | 1. Random access - constant O(1) <br /> 2. Insertion or removal of elements at the **end** or **beginning** - constant O(1) <br /> 3. Insertion or removal of elements - linear O(n) | The storage of a deque is automatically **expanded** and **contracted** as needed.
+[array](https://en.cppreference.com/w/cpp/container/array)|container |static array|Random access - constant O(1)|Have to specify its size at creation time.
+[list](https://en.cppreference.com/w/cpp/container/list)|sequence container|a doubly-linked list|1. Access to an arbitrary element takes linear time.<br />2. Insertion or removal of an element is fast at any position O(1).|Lists do not provide random access.
+[forward_list](https://en.cppreference.com/w/cpp/container/forward_list)|sequence container|a singly-linked list|1. Access to an arbitrary element takes linear time.<br />2. Insertion or removal of an element is fast at any position O(1).|Can’t search for an element and then delete it or insert another element in front of it.
