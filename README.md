@@ -66,9 +66,9 @@ Stanford University [CS 106L: Standard C++ Programming](http://web.stanford.edu/
 ### 1. [Array](https://leetcode.com/tag/linked-list) <a id="array"></a>
 | # | Title | Solution | Difficulty | Topics |
 |---| ----- | -------- | ---------- | ------ |
-
+| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-element/) | [C++](./leetcode/array/lc26.cpp) | easy | [array](https://leetcode.com/tag/array/) |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [C++](./leetcode/array/lc27.cpp) | easy | [array](https://leetcode.com/tag/array/) |
-
+| 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-element/) | [C++](./leetcode/array/lc80.cpp) | Medium | [array](https://leetcode.com/tag/array/) |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [C++](./leetcode/array/lc283.cpp) | easy | [Array](https://leetcode.com/tag/array/) |
 
 
