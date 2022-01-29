@@ -1,6 +1,6 @@
 //445. Add Two Numbers II
 
-// First reverse the input lists and then use the Add Two Numbers solution, at last reverse the result.
+// 1. First reverse the input lists and then use the Add Two Numbers solution, at last reverse the result.
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
@@ -33,7 +33,7 @@ private:
     }
 };
 
-// Use stack without reversing.
+// 2. Use stack without reversing.
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {

@@ -8,7 +8,8 @@
 - [3. Data structures](#ds)
 - [4. Algorithms](#algorithms)
 - [5. LeetCode](#leetcode)
-    - [5.1 Linked List](#linkedlist)
+    - [5.1 Array](#linkedlist)
+    - [5.2 Linked List](#linkedlist)
 
 ## 1. Linux tools <a id="linux"></a>
 [MIT：The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
@@ -61,7 +62,21 @@ Stanford University [CS 106L: Standard C++ Programming](http://web.stanford.edu/
 ## 4. Algorithms <a id="algorithms"></a>
 
 ## 5. LeetCode <a id="leetcode"></a>
-### 1. [Linked List](https://leetcode.com/tag/linked-list) <a id="linkedlist"></a>
+
+### 1. [Array](https://leetcode.com/tag/linked-list) <a id="array"></a>
+| # | Title | Solution | Difficulty | Topics |
+|---| ----- | -------- | ---------- | ------ |
+
+| 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [C++](./leetcode/array/lc27.cpp) | easy | [array](https://leetcode.com/tag/array/) |
+
+| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [C++](./leetcode/array/lc283.cpp) | easy | [Array](https://leetcode.com/tag/array/) |
+
+
+<!--
+|  | []() | [C++](./leetcode/array/) |  | [array](https://leetcode.com/tag/array/) |
+-->
+
+### 2. [Linked List](https://leetcode.com/tag/linked-list) <a id="linkedlist"></a>
 | # | Title | Solution | Difficulty | Topics |
 |---| ----- | -------- | ---------- | ------ |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [C++](./leetcode/list/lc2.cpp) | Medium | [Linked List](https://leetcode.com/tag/linked-list) |
