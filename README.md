@@ -8,8 +8,9 @@
 - [3. Data structures](#ds)
 - [4. Algorithms](#algorithms)
 - [5. LeetCode](#leetcode)
-    - [5.1 Array](#linkedlist)
+    - [5.1 Array](#array)
     - [5.2 Linked List](#linkedlist)
+    - [5.3 Tree](#tree)
 
 ## 1. Linux tools <a id="linux"></a>
 [MIT：The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
@@ -66,14 +67,14 @@ Stanford University [CS 106L: Standard C++ Programming](http://web.stanford.edu/
 ### 1. [Array](https://leetcode.com/tag/linked-list) <a id="array"></a>
 | # | Title | Solution | Difficulty | Topics |
 |---| ----- | -------- | ---------- | ------ |
-| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-element/) | [C++](./leetcode/array/lc26.cpp) | easy | [array](https://leetcode.com/tag/array/) |
-| 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [C++](./leetcode/array/lc27.cpp) | easy | [array](https://leetcode.com/tag/array/) |
-| 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-element/) | [C++](./leetcode/array/lc80.cpp) | Medium | [array](https://leetcode.com/tag/array/) |
+| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-element/) | [C++](./leetcode/array/lc26.cpp) | easy | [Array](https://leetcode.com/tag/array/) |
+| 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [C++](./leetcode/array/lc27.cpp) | easy | [Array](https://leetcode.com/tag/array/) |
+| 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-element/) | [C++](./leetcode/array/lc80.cpp) | Medium | [Array](https://leetcode.com/tag/array/) |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [C++](./leetcode/array/lc283.cpp) | easy | [Array](https://leetcode.com/tag/array/) |
 
 
 <!--
-|  | []() | [C++](./leetcode/array/) |  | [array](https://leetcode.com/tag/array/) |
+|  | []() | [C++](./leetcode/array/) |  | [Array](https://leetcode.com/tag/array/) |
 -->
 
 ### 2. [Linked List](https://leetcode.com/tag/linked-list) <a id="linkedlist"></a>
@@ -85,4 +86,13 @@ Stanford University [CS 106L: Standard C++ Programming](http://web.stanford.edu/
 |  | []() | [C++](./leetcode/list/) |  | [Linked List](https://leetcode.com/tag/linked-list) |
 -->
 
-
+### 3. [Tree](https://leetcode.com/tag/tree) <a id="tree"></a>
+| # | Title | Solution | Difficulty | Topics |
+|---| ----- | -------- | ---------- | ------ |
+| 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [C++](./leetcode/list/lc144.cpp) | easy | [Tree](https://leetcode.com/tag/tree) |
+| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [C++](./leetcode/list/lc94.cpp) | easy | [Tree](https://leetcode.com/tag/tree) |
+| 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [C++](./leetcode/list/lc145.cpp) | easy | [Tree](https://leetcode.com/tag/tree) |
+| 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [C++](./leetcode/list/lc102.cpp) | medium | [Tree](https://leetcode.com/tag/tree) |
+<!--
+|  | []() | [C++](./leetcode/list/) |  | [Tree](https://leetcode.com/tag/tree) |
+-->
