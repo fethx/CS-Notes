@@ -24,7 +24,7 @@ private:
     }
 };
 
-// solution 1, dfs
+// solution 2, dfs
 class Solution {
 public:
     vector<vector<int>> levelOrder(TreeNode* root) {
@@ -40,6 +40,5 @@ private:
         dfs(root->left, level + 1, preorder);
         dfs(root->right, level + 1, preorder);
     }
-
 };
 

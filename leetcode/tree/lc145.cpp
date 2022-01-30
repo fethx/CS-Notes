@@ -9,8 +9,8 @@ public:
 private:
     void dfs(TreeNode* root, vector<int> &postorder) {
         if(!root) return;
-        if(root->left) dfs(root->left, postorder);
-        if(root->right) dfs(root->right, postorder);
+        dfs(root->left, postorder);
+        dfs(root->right, postorder);
         postorder.push_back(root->val);
     }
 };

@@ -89,10 +89,11 @@ Stanford University [CS 106L: Standard C++ Programming](http://web.stanford.edu/
 ### 3. [Tree](https://leetcode.com/tag/tree) <a id="tree"></a>
 | # | Title | Solution | Difficulty | Topics |
 |---| ----- | -------- | ---------- | ------ |
-| 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [C++](./leetcode/list/lc144.cpp) | easy | [Tree](https://leetcode.com/tag/tree) |
+| 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [C++](./leetcode/tree/lc144.cpp) | easy | [Tree](https://leetcode.com/tag/tree) |
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [C++](./leetcode/list/lc94.cpp) | easy | [Tree](https://leetcode.com/tag/tree) |
-| 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [C++](./leetcode/list/lc145.cpp) | easy | [Tree](https://leetcode.com/tag/tree) |
-| 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [C++](./leetcode/list/lc102.cpp) | medium | [Tree](https://leetcode.com/tag/tree) |
-<!--
-|  | []() | [C++](./leetcode/list/) |  | [Tree](https://leetcode.com/tag/tree) |
--->
+| 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [C++](./leetcode/tree/lc145.cpp) | easy | [Tree](https://leetcode.com/tag/tree) |
+| 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [C++](./leetcode/tree/lc102.cpp) | medium | [Tree](https://leetcode.com/tag/tree) |
+| 589 | [N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | [C++](./leetcode/tree/lc589.cpp) | easy | [Tree](https://leetcode.com/tag/tree) |
+| 590 | [N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | [C++](./leetcode/tree/lc590.cpp) | easy | [Tree](https://leetcode.com/tag/tree) |
+| 429 | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/) | [C++](./leetcode/tree/lc429.cpp) | easy | [Tree](https://leetcode.com/tag/tree) |
+
