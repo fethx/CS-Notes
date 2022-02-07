@@ -65,12 +65,16 @@ Stanford University [CS 106L: Standard C++ Programming](http://web.stanford.edu/
 ## 5. LeetCode <a id="leetcode"></a>
 
 ### 1. [Array](https://leetcode.com/tag/linked-list) <a id="array"></a>
-| # | Title | Solution | Difficulty | Topics |
-|---| ----- | -------- | ---------- | ------ |
-| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-element/) | [C++](./leetcode/array/lc26.cpp) | easy | [Array](https://leetcode.com/tag/array/) |
-| 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [C++](./leetcode/array/lc27.cpp) | easy | [Array](https://leetcode.com/tag/array/) |
-| 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-element/) | [C++](./leetcode/array/lc80.cpp) | Medium | [Array](https://leetcode.com/tag/array/) |
-| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [C++](./leetcode/array/lc283.cpp) | easy | [Array](https://leetcode.com/tag/array/) |
+| # | Title | Solution | Difficulty | Topics | Others |
+|---| ----- | -------- | ---------- | ------ | ------ |
+| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [C++](./leetcode/array/lc26.cpp) | easy | [Array](https://leetcode.com/tag/array/) | [Two Pointers](https://leetcode.com/tag/two-pointers/) |
+| 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | [C++](./leetcode/array/lc80.cpp) | Medium | [Array](https://leetcode.com/tag/array/) | [Two Pointers](https://leetcode.com/tag/two-pointers/) |
+| 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [C++](./leetcode/array/lc27.cpp) | easy | [Array](https://leetcode.com/tag/array/) | [Two Pointers](https://leetcode.com/tag/two-pointers/) |
+| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [C++](./leetcode/array/lc283.cpp) | easy | [Array](https://leetcode.com/tag/array/) | [Two Pointers](https://leetcode.com/tag/two-pointers/) |
+
+
+
+
 
 
 <!--

@@ -1,3 +1,4 @@
+// Solution 1, two pointers
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -10,5 +11,19 @@ public:
             }
         }
         return l + 1;
+    }
+};
+
+
+// Solution 2, brilliant
+class Solution {
+public:
+    int removeDuplicates(vector<int>& nums) {
+        int i = 0;
+        for(int n : nums) {
+            if(i < 1 || nums[i - 1] < n)
+                nums[i++] = n;
+        }
+        return i;
     }
 };
