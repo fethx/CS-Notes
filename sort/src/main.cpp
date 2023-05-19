@@ -8,30 +8,34 @@
 #include "counting_sort.h"
 #include "radix_sort.h"
 
-void print(vector<int>& nums) {
+#include <iomanip>
+using namespace std;
+
+void print(vector<int>& nums, string algo) {
+    cout << setw(15) << left << algo << ":  ";
     for (auto i : nums) {
-        cout << i << " ";
+        cout << setw(2) << i << " ";
     }
-    cout << endl;
+    cout << "\n";
 }
 
 int main() {  
     // 1. bubble_sort
-    // vector<int> A = {5, 2, 4, 6, 1, 3};
-    // bubble_sort(A);
-    vector<int> A = {1, 2, 3, 4, 5, 6};
-    bubble_sort_optimize(A);
-    print(A);
+    vector<int> A = {5, 2, 4, 6, 1, 3};
+    bubble_sort(A);
+    // vector<int> A = {1, 2, 3, 4, 5, 6};
+    // bubble_sort_optimize(A);
+    print(A, "bubble_sort");
 
-    // // 2. select_sort
+    // 2. select_sort
     // vector<int> A = {5, 2, 4, 6, 1, 3};
-    // select_sort(A);
-    // print(A);
+    select_sort(A);
+    print(A, "select_sort");
 
-    // // 3. insertion_sort
+    // 3. insertion_sort
     // vector<int> A = {5, 2, 4, 7, 1, 3, 2, 6};
-    // insertion_sort(A);
-    // print(A);
+    insertion_sort(A);
+    print(A, "insertion_sort");
 
     // // 4. quick_sort
     // vector<int> A = {5, 2, 4, 7, 1, 3, 2, 6};

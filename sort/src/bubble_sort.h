@@ -24,7 +24,7 @@ void bubble_sort_optimize(vector<int>& vec) {
             }
         }
         if(sorted) {
-            std::cout << "use sorted flag" << "\n";
+            std::cout << "bubble_sort: use sorted flag" << "\n";
             break;
         }
     }

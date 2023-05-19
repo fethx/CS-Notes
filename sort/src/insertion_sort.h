@@ -10,7 +10,7 @@ void insertion_sort(vector<int>& vec) {
         int j = i - 1;
         while(j >= 0 && vec[j] > key) {
             vec[j + 1] = vec[j];
-            --j;
+            j--;
         }
         vec[j + 1] = key;
     }
