@@ -1,103 +1,75 @@
 
-## Table of Contents
-- [1. Linux tools](#linux)
-- [2. C++](#c++)
-    - [2.1 Courses](#courses)
-    - [2.2 Books](#books)
-    - [2.3 STL](#stl)
-- [3. Data structures](#ds)
-- [4. Algorithms](#algorithms)
-- [5. LeetCode](#leetcode)
-    - [5.1 Array](#array)
-    - [5.2 Linked List](#linkedlist)
-    - [5.3 Tree](#tree)
+# 前言
 
-## 1. Linux tools <a id="linux"></a>
-[MIT：The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
+按照[费曼学习法](./methodology/Feynman_Technique.md)的理论，学习要有输出。计算机知识很多很杂，要落实到代码上，亲自动手，才能真正学会。
 
->Lectures:
-- [Course overview + the shell](https://missing.csail.mit.edu/2020/course-shell/)
-- [Shell Tools and Scripting](https://missing.csail.mit.edu/2020/shell-tools/)
-- [Editors (Vim)](https://missing.csail.mit.edu/2020/editors)
-- [Data Wrangling](https://missing.csail.mit.edu/2020/data-wrangling)
-- [Command-line Environment](https://missing.csail.mit.edu/2020/command-line)
-- [Version Control (Git)](https://missing.csail.mit.edu/2020/version-control)
-- [Debugging and Profiling](https://missing.csail.mit.edu/2020/debugging-profiling)
-- [Metaprogramming](https://missing.csail.mit.edu/2020/metaprogramming)
-- [Security and Cryptography](https://missing.csail.mit.edu/2020/security)
-- [Potpourri](https://missing.csail.mit.edu/2020/potpourri)
-- [Q&amp;A](https://missing.csail.mit.edu/2020/qa)
+因此，在学习的过程中，知识点落实到代码上，落实到文字总结上。这就是创建这个项目的初衷，记录总结回顾。
 
 
-## 2. C++ <a id="c++"></a>
-### 2.1 Courses <a id="courses"></a>
-Stanford University [CS 106L: Standard C++ Programming](http://web.stanford.edu/class/cs106l/index.html)
+# C++
+## 面向对象编程 OOP(Object Oriented Programming)
 
-### 2.2 Books <a id="books"></a>
-[The Definitive C++ Book Guide and List](https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list/388282#388282)
-
-### 2.3 STL <a id="stl"></a>
-
-#### 2.3.1 STL containers 
-![STL Container Types](./images/stl-container-types.png)
->*The C++ Standard Library A Tutorial and Reference by Nicolai M. Josuttis. Figure 6.2. STL Container Types.*
-
-| Containers | Types | Data structures | Time complexity | Others |
-| ---------- | ----- | --------------- | --------------- | ------ |
-[vector](https://en.cppreference.com/w/cpp/container/vector) | sequence container | contiguous; dynamic array |1. Random access - constant O(1) <br /> 2. Insertion or removal of elements at the end - amortized constant O(1) <br /> 3. Insertion or removal of elements - linear in the distance to the end of the vector O(n)  | The storage of the vector is handled automatically, being expanded and contracted as needed.
-[deque](https://en.cppreference.com/w/cpp/container/deque) <br />An abbreviation for “double-ended queue.”| sequence container  | The elements of a deque are not stored contiguously: typical implementations use a sequence of individually allocated fixed-size **arrays**, with additional bookkeeping. | 1. Random access - constant O(1) <br /> 2. Insertion or removal of elements at the **end** or **beginning** - constant O(1) <br /> 3. Insertion or removal of elements - linear O(n) | The storage of a deque is automatically **expanded** and **contracted** as needed.
-[array](https://en.cppreference.com/w/cpp/container/array)|container |static array|Random access - constant O(1)|Have to specify its size at creation time.
-[list](https://en.cppreference.com/w/cpp/container/list)|sequence container|a doubly-linked list|1. Access to an arbitrary element takes linear time.<br />2. Insertion or removal of an element is fast at any position O(1).|Lists do not provide random access.
-[forward_list](https://en.cppreference.com/w/cpp/container/forward_list)|sequence container|a singly-linked list|1. Access to an arbitrary element takes linear time.<br />2. Insertion or removal of an element is fast at any position O(1).|Can’t search for an element and then delete it or insert another element in front of it.
-[queue](https://en.cppreference.com/w/cpp/container/queue)|container adaptor|deque(default)|FIFO <br />O(1)|Can use any sequence container class that provides the member functions front(), back(), push_back(), and pop_front(). 
-[priority_queue](https://en.cppreference.com/w/cpp/container/priority_queue)|container adaptor|vector(default) <br />heap algorithms|logarithmic insertion and extraction|Can use any sequence container class that provides random-access iterators and the member functions front(), push_back(), and pop_back(). e.g., deque.
-[stack](https://en.cppreference.com/w/cpp/container/stack)|container adaptor|deque(default)|LIFO<br>O(1)|Unlike vectors, deques free their memory when elements are removed and don’t have to copy all elements on reallocation.
-[set](https://en.cppreference.com/w/cpp/container/set)|sorted associative container|[red-black trees](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)|Search, removal, and insertion operations have logarithmic complexity.|Multisets allow duplicates, whereas sets do not.
-[multiset](https://en.cppreference.com/w/cpp/container/multiset)|sorted associative container|[red-black trees](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)|Search, removal, and insertion operations have logarithmic complexity.|Multisets allow duplicates, whereas sets do not.
-[map](https://en.cppreference.com/w/cpp/container/map)|sorted associative container|[red-black trees](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)|Search, removal, and insertion operations have logarithmic complexity.| Could consider sets and multisets as special maps and multimaps, respectively.
-[multimap](https://en.cppreference.com/w/cpp/container/multimap)|sorted associative container|[red-black trees](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)|Search, removal, and insertion operations have logarithmic complexity.|For multimaps, the order of elements with equivalent keys is random but stable.
+### C++ 面向对象三大特性: 
+1. Encapsulation - 封装 
+2. Inheritance - 继承
+3. Polymorphism - 多态
 
 
-## 3. Data structures <a id="ds"></a>
+<!-- ### 虚函数
 
-## 4. Algorithms <a id="algorithms"></a>
+## 智能指针
 
-## 5. LeetCode <a id="leetcode"></a>
-
-### 1. [Array](https://leetcode.com/tag/linked-list) <a id="array"></a>
-| # | Title | Solution | Difficulty | Topics | Others |
-|---| ----- | -------- | ---------- | ------ | ------ |
-| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [C++](./leetcode/array/lc26.cpp) | easy | [Array](https://leetcode.com/tag/array/) | [Two Pointers](https://leetcode.com/tag/two-pointers/) |
-| 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | [C++](./leetcode/array/lc80.cpp) | Medium | [Array](https://leetcode.com/tag/array/) | [Two Pointers](https://leetcode.com/tag/two-pointers/) |
-| 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [C++](./leetcode/array/lc27.cpp) | easy | [Array](https://leetcode.com/tag/array/) | [Two Pointers](https://leetcode.com/tag/two-pointers/) |
-| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [C++](./leetcode/array/lc283.cpp) | easy | [Array](https://leetcode.com/tag/array/) | [Two Pointers](https://leetcode.com/tag/two-pointers/) |
+## 右值引用，移动语义，完美转发 -->
 
 
 
+# 算法
+一些常见的算法，比如排序。
+
+## 排序算法 
+| 算法名称 | 平均时间复杂度 | 最好情况  | 最坏情况 | 空间复杂度 | 排序方式  | 稳定性 |
+| :------: | :------------: | :-------: | :------: | :--------: | :-------: | :----: |
+| 冒泡排序 |     O(n^2)     |   O(n)    |  O(n2)   |    O(1)    | In-place  |  稳定  |
+| 选择排序 |     O(n2)      |   O(n2)   |  O(n2)   |    O(1)    | In-place  | 不稳定 |
+| 插入排序 |     O(n2)      |   O(n)    |  O(n2)   |    O(1)    | In-place  |  稳定  |
+| 快速排序 |    O(nlogn)    | O(nlogn)  |  O(n2)   |  O(logn)   | In-place  | 不稳定 |
+| 归并排序 |    O(nlogn)    | O(nlogn)  | O(nlogn) |    O(n)    | Out-place |  稳定  |
+|  堆排序  |    O(nlogn)    | O(nlogn)  | O(nlogn) |    O(1)    | In-place  | 不稳定 |
+| 希尔排序 |    O(nlogn)    | O(nlog2n) |  O(n2)   |    O(1)    | In-place  | 不稳定 |
+| 计数排序 |     O(n+k)     |  O(n+k)   |  O(n+k)  |    O(k)    | Out-place |  稳定  |
+|  桶排序  |     O(n+k)     |  O(n+k)   |  O(n2)   |   O(n+k)   | Out-place |  稳定  |
+| 基数排序 |     O(n*k)     |   O(nk)   |  O(nk)   |   O(n+k)   | Out-place |  稳定  |
+
+注：
+- In-place: 不需要额外的空间,原地修改序列实现算法。其空间复杂度为O(1)。
+- Out-place: 需要额外的空间来实现算法。其空间复杂度一般为O(n)或O(k)等。
+- 稳定性：稳定的排序算法会保持相同元素的相对位置不变。
+
+通常会把它们分为三类：[1]
+1. 选择排序、插入排序、冒泡排序
+2. 堆排序、归并排序、快速排序
+3. 计数排序、基数排序 、桶排序
+
+前两类是基于比较的排序算法。对n个元素进行排序时， 若元素比较大小的时间复杂度为O(1)，则第一类排序算法的时间复杂度为O(n^2)，第一类排序算法的时间复杂度为O(nlogn)。实际上，基于比较的排序算法的时间复杂度下 界为O(nlogn)。
+
+第三类不直接比较大小，而是对被排序的数值采取按位划分、分类映射等处理方式。其时间复杂度不仅与 n 有关，还与数值的大小范围 m 有关。 
 
 
 
-<!--
-|  | []() | [C++](./leetcode/array/) |  | [Array](https://leetcode.com/tag/array/) |
--->
+# 刷题
+这里记录刷过的算法题。
 
-### 2. [Linked List](https://leetcode.com/tag/linked-list) <a id="linkedlist"></a>
-| # | Title | Solution | Difficulty | Topics |
-|---| ----- | -------- | ---------- | ------ |
-| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [C++](./leetcode/list/lc2.cpp) | Medium | [Linked List](https://leetcode.com/tag/linked-list) |
+[LeetCode Top 100 Liked Questions](https://leetcode.com/problem-list/top-100-liked-questions/)
 
-<!--
-|  | []() | [C++](./leetcode/list/) |  | [Linked List](https://leetcode.com/tag/linked-list) |
--->
+| #   | Title                                                | Solution                        | Difficulty | Topics            | Others |
+| --- | ---------------------------------------------------- | ------------------------------- | ---------- | ----------------- | ------ |
+| 1   | [1. Two Sum](https://leetcode.com/problems/two-sum/) | [C++](./leetcode/array/lc1.cpp) | Easy       | Array, Hash Table |
 
-### 3. [Tree](https://leetcode.com/tag/tree) <a id="tree"></a>
-| # | Title | Solution | Difficulty | Topics |
-|---| ----- | -------- | ---------- | ------ |
-| 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [C++](./leetcode/tree/lc144.cpp) | easy | [Tree](https://leetcode.com/tag/tree) |
-| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [C++](./leetcode/list/lc94.cpp) | easy | [Tree](https://leetcode.com/tag/tree) |
-| 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [C++](./leetcode/tree/lc145.cpp) | easy | [Tree](https://leetcode.com/tag/tree) |
-| 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [C++](./leetcode/tree/lc102.cpp) | medium | [Tree](https://leetcode.com/tag/tree) |
-| 589 | [N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | [C++](./leetcode/tree/lc589.cpp) | easy | [Tree](https://leetcode.com/tag/tree) |
-| 590 | [N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | [C++](./leetcode/tree/lc590.cpp) | easy | [Tree](https://leetcode.com/tag/tree) |
-| 429 | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/) | [C++](./leetcode/tree/lc429.cpp) | easy | [Tree](https://leetcode.com/tag/tree) |
+
+
+# 参考资料
+[1]《算法竞赛进阶指南》李煜东
+1. 《算法笔记》 胡凡
+2. *C++ Primer (5th Edition)*
+3. *Effective Modern C++*
 
