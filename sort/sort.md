@@ -3,7 +3,9 @@
 ## 冒泡排序
 
 图示[^1]
-![bubble_sort.gif](../images/bubble_sort.gif)
+
+<!-- ![bubble_sort.gif](../images/bubble_sort.gif) -->
+<img src="../images/bubble_sort.gif" width="670" height="229" >
 
 冒泡排序是一种简单的排序算法，其时间复杂度为O(n^2)。该算法由n轮组成，在每一轮中，它遍历数组中的元素。每当找到两个相邻的元素处于错误的顺序时，算法会交换它们。该算法可以如下实现[^2]：
 
@@ -23,7 +25,9 @@ for (int i = 0; i < n; i++) {
 ## 选择排序
 
 图示[^1]
-![select_sort](../images/select_sort.gif)
+
+<!-- ![select_sort](../images/select_sort.gif) -->
+<img src="../images/select_sort.gif" width="413" height="223" >
 
 选择排序的基本思想是:
 1. 在未排序区间中选出最小(或最大)元素
@@ -43,8 +47,10 @@ for (int i = 0; i < n; i++) {
 ## 插入排序
 
 图示[^1]
-![insertion_sort](../images/insertion_sort.gif)
-<!-- <video src="../images/insertion_sort.mp4" width="320" height="240" controls></video> -->
+
+<!-- ![insertion_sort](../images/insertion_sort.gif) -->
+<img src="../images/insertion_sort.gif" width="511" height="233" >
+
 
 插入排序的基本思想是:
 1. 将数组分为已排序区间和未排序区间
@@ -53,10 +59,12 @@ for (int i = 0; i < n; i++) {
 4. 重复步骤 2 和 3,直到未排序区间为空
 
 下图[^3]是选择排序步骤。每轮完成一个元素的排序，寻找到合适的位置并插入。比较的过程中，已排序的元素依次往后挪一个位置。
-![insertion_sort_steps](../images/insertion_sort_steps.png)
+<!-- ![insertion_sort_steps](../images/insertion_sort_steps.png) -->
+<img src="../images/insertion_sort_steps.png" width="700" height="150" >
+
 
 伪代码[^3], A[i]表示数组 A 的第 i 个元素。
-![insertion_sort_pseudocode](../images/insertion_sort_pseudocode.png)
+<img src="../images/insertion_sort_pseudocode.png" width="500" height="240" >
 
 
 # 参考资料
