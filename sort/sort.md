@@ -60,10 +60,10 @@ for (int i = 0; i < n; i++) {
 
 下图[^3]是选择排序步骤。每轮完成一个元素的排序，寻找到合适的位置并插入。比较的过程中，已排序的元素依次往后挪一个位置。
 <!-- ![insertion_sort_steps](../images/insertion_sort_steps.png) -->
-<img src="../images/insertion_sort_steps.png" width="700" height="150" >
+<img src="../images/insertion_sort_steps.png" width="700" height="200" >
 
 
-伪代码[^3], A[i]表示数组 A 的第 i 个元素。
+伪代码[^3], A[i]表示数组 A 的第 i 个元素。   
 <img src="../images/insertion_sort_pseudocode.png" width="500" height="240" >
 
 
