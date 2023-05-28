@@ -70,8 +70,9 @@ InstructGPT 详解看这里：[InstructGPT 原理](AI/instructGPT.md)
 | GPT-4       |       100T | Text & Image | [Technical Report](https://arxiv.org/abs/2303.08774) |
 
 <details>
-<summary>CatGPT-4 Technical Report</summary>
-[@_willfalcon](https://twitter.com/_willfalcon/status/1635712178031296520?lang=en)
+<summary>CatGPT-4 Technical Report</summary>  
+<a href="[mailto:someone@example.com](https://twitter.com/_willfalcon/status/1635712178031296520?lang=en)">@_willfalcon</a>
+
 ![](images/chatgpt4williamfalcon.jpg)
 </details>
 
