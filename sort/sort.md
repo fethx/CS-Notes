@@ -69,7 +69,7 @@ for (int i = 0; i < n; i++) {
 
 # 参考资料
 [^1]:<a id="ref1"> https://visualgo.net/en </a>  
-[^2]:<a id="ref1"> *Guide to Competitive Programming: Learning and Improving Algorithms Through Contests Second Edition by Antti Laaksonen*</a>  
-[^3]:<a id="ref1"> 《算法导论》第三版 </a>  
-[^4]:<a id="ref1"> 《算法》第四版 </a>  
+[^2]:<a id="ref2"> *Guide to Competitive Programming: Learning and Improving Algorithms Through Contests Second Edition by Antti Laaksonen*</a>  
+[^3]:<a id="ref3"> 《算法导论》第三版 </a>  
+[^4]:<a id="ref4"> 《算法》第四版 </a>  
 
