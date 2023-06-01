@@ -78,6 +78,9 @@ GPT 论文看这里：[GPT 1-3](AI/GPT123.md)
 <img src="images/chatgpt4williamfalcon.jpg" width="600" height="435" >
 </details>  
 
+## 计算机视觉 computer vision 
+[通用视觉框架 OpenMMLab](AI/openmmlab.md)
+
 
 
 # 刷题
