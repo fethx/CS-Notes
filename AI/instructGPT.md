@@ -10,7 +10,7 @@ GPT = Generative Pre-trained Transformer[^2]
 方法分为 3 步：
 1. supervised fine-tuning (SFT) 有监督微调
 2. reward model (RM) training 奖励模型训练
-3. reinforcement learning via proximal policy optimization (PPO) 基于 近端策略优化 PPO[^3] 的强化学习  
+3. reinforcement learning via proximal policy optimization (PPO) 基于近端策略优化 PPO[^3] 的强化学习  
 
 
 

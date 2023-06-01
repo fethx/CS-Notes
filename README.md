@@ -56,25 +56,29 @@
 
 # AI
 ## ChatGPT
-ChatGPT-3.5/4 火的不得了，引爆整个网络，推上每天都在讨论他，各种基于 ChatGPT 的应用层出不穷，GitHub上相关的项目更是爆发增长，新出一个开源项目很快就能拿到几k几十k的star，有一个比较有意思的项目是训练自己的私人助手——[privateGPT](https://github.com/imartinez/privateGPT)，用自己的资料去训练。我尝试了一下对显卡和内存的要求比较高，速度很慢。对于程序员来说，最大的应用就是让他来帮我们写代码了。看不懂的代码直接丢给他，他给你详细的解答。
+ChatGPT-3.5/4 火的不得了，引爆整个网络，推上每天都在讨论他，各种基于 ChatGPT 的应用层出不穷，GitHub上相关的项目更是爆发增长，新出一个开源项目很快就能拿到几k几十k的star，有一个比较有意思的项目是训练自己的私人助手([privateGPT](https://github.com/imartinez/privateGPT))，用自己的资料去训练。我尝试了一下对显卡和内存的要求比较高，速度很慢。对于程序员来说，最大的应用就是让他帮我们写代码了。在学习过程中，看不懂的代码直接丢给他，很快就生成详细的解答。
 
 OpenAI 目前没有公布 ChatGPT 的论文，不过[官网博客](https://openai.com/blog/chatgpt)有说和  InstructGPT 吧。
 >We trained this model using Reinforcement Learning from Human Feedback (RLHF), using the same methods as InstructGPT, but with slight differences in the data collection setup.
 
-InstructGPT 详解看这里：[InstructGPT 原理](AI/instructGPT.md)
+InstructGPT 论文看这里：[InstructGPT 原理](AI/instructGPT.md)
+GPT 论文看这里：[GPT 1-3](AI/GPT123.md)
 
-| Models      | Parameters |    Supported |                                               Papers |
-| :---------- | ---------: | -----------: | ---------------------------------------------------: |
-| InstructGPT |       1.3B |         Text |            [Paper](https://arxiv.org/abs/2203.02155) |
-| GPT-3       |       175B |         Text |                                                 None |
-| GPT-4       |       100T | Text & Image | [Technical Report](https://arxiv.org/abs/2303.08774) |
+| Models      | Parameters |    Supported |    Date | References |               Papers |
+| :---------- | ---------: | -----------: | ------: | ---------: | -------------------: |
+| GPT-1       |            |         Text | 06/2018 |       5.5k |            Paper[^2] |
+| GPT-2       |            | Text & Image | 02/2019 |         6k |            Paper[^3] |
+| GPT-3       |       175B |         Text | 05/2020 |        10k |            Paper[^4] |
+| InstructGPT |       1.3B |         Text | 03/2022 |        923 |            Paper[^5] |
+| GPT-4       |       100T | Text & Image | 05/2023 |         16 | Technical Report[^6] |
 
 <details>
-<summary>CatGPT-4 Technical Report</summary>  
+<summary>By the way :)</summary>  
 <a href="https://twitter.com/_willfalcon/status/1635712178031296520?lang=en">@_willfalcon</a>
+<img src="images/chatgpt4williamfalcon.jpg" width="600" height="435" >
+</details>  
 
-![](images/chatgpt4williamfalcon.jpg)
-</details>
+
 
 # 刷题
 这里记录刷过的算法题。
@@ -88,9 +92,15 @@ InstructGPT 详解看这里：[InstructGPT 原理](AI/instructGPT.md)
 
 
 # 参考资料
-[^1]:<a id="ref1">《算法竞赛进阶指南》李煜东</a>
+[^1]:<a id="ref1">《算法竞赛进阶指南》李煜东</a>  
+[^2]:<a id="GPT-1"> [Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf) </a>  
+[^3]:<a id="GPT-2"> [Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) </a>   
+[^4]:<a id="GPT-3"> [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) </a>  
+[^5]:<a id="InstructGPT"> [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155) </a>  
+[^6]:<a id="GPT-4"> [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774) </a>
+
 
 <!-- 1. 《算法笔记》 胡凡
-2. *C++ Primer (5th Edition)*
-3. *Effective Modern C++* -->
+1. *C++ Primer (5th Edition)*
+2. *Effective Modern C++* -->
 
