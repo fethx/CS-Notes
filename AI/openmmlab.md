@@ -1,7 +1,7 @@
 # OpenMMLab
 
 [OpenMMLab](https://github.com/open-mmlab)
-基于 PyTorch，涵盖 30+ 个视觉库，实现了 300+ 种算法，并包含 2400+ 个预训练模型。
+基于 PyTorch，涵盖 30+ 个视觉库，实现了 300+ 种算法，并包含 2400+ 个预训练模型[^2]。
 
 ![](../images/openmmlab.png)
 
@@ -33,7 +33,7 @@
 - [Playground](https://github.com/open-mmlab/playground): 收集和展示 OpenMMLab 相关的前沿、有趣的社区项目
 
 
-<!-- 下面是本次训练营课程讲解的 5 个项目。 -->
+<!-- 下面是本次训练营课程讲解的 5 个项目。[^1] -->
 
 ## MMPreTrain 
 [MMPreTrain](https://github.com/open-mmlab/mmpretrain) 是做图像分类、预训练和多模态的算法库。
@@ -63,6 +63,8 @@ MMDetection 可以解决目标检测，实例分割，全景分割和目标追�
 ## MMPose
 [MMPose](https://github.com/open-mmlab/mmpose) 是专门做姿态估计的算法库。姿态估计其实就是关键点检测，例如把一个人的关节骨架的点识别出来，然后串成一个火柴人。
 MMPose支持人脸，人体手动物和服装的关键点检测，既有2d又有3d。
+
+[人体姿态估计与 MMPose 看这里](./HumanPoseEstimation.md)
 
 
 ## MMagic
