@@ -77,11 +77,11 @@ GPT 论文看这里：[GPT 1-3](AI/GPT123.md)
 <a href="https://twitter.com/_willfalcon/status/1635712178031296520?lang=en">@_willfalcon</a>
 <img src="images/chatgpt4williamfalcon.jpg" width="600" height="435" >
 </details>  
-
+W
 ## 计算机视觉 computer vision 
-[通用视觉框架 OpenMMLab](AI/openmmlab.md)
+[通用视觉框架 OpenMMLab](./AI/openmmlab.md)
 
-
+[人体姿态估计 (Human Pose Estimation)](./AI/HumanPoseEstimation.md)
 
 # 刷题
 这里记录刷过的算法题。
