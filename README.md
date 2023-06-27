@@ -7,6 +7,13 @@
 [专注于学习和创造，而不是娱乐和分心](./methodology/Focus_On_Learning_and_Creating.md)
 
 # C++
+## 面试问题
+[C++ 面试题答案](./C++/interview_questions_cpp.md)
+1. 为什么class成员函数声明和定义分开？
+2. 模板类的声明和实现可以分开吗？
+
+
+
 ## 面向对象编程 OOP(Object Oriented Programming)
 
 ### C++ 面向对象三大特性
@@ -20,6 +27,34 @@
 ## 智能指针
 
 ## 右值引用，移动语义，完美转发 -->
+
+## STL
+
+### 容器
+
+STL容器类型[^7]
+![](./images/STL_Container_Types.png)
+
+|容器 | 底层数据结构 | 时间复杂度 | 其他|
+|:---|:---|:---|:---|
+|[array]()|数组|随机读改 $O(1)$|
+|[vector]()|数组|随机读改、尾部插入、尾部删除 $O(1)$<br/>头部插入、头部删除 $O(n)$|
+|[deque]()|双端队列|头尾插入、头尾删除 $O(1)$|
+|[list]()|双向链表|插入、删除 $O(1)$|
+|[forward_list]()|单向链表|插入、删除 $O(1)$|
+|[set]()|红黑树|插入、删除、查找 $O(logn)$|
+|[multiset]()|红黑树|插入、删除、查找 $O(logn)$|
+|[map](./C%2B%2B/Maps_and_Multimaps.md)|红黑树|插入、删除、查找 $O(logn)$|
+|[multimap]()|红黑树|插入、删除、查找 $O(logn)$|
+|[unordered_set]()|哈希表|插入、删除、查找 $O(1)$ 最差 $O(n)$|
+|[unordered_multiset]()|哈希表|插入、删除、查找 $O(1)$ 最差 $O(n)$|
+|[unordered_map]()|哈希表|插入、删除、查找 $O(1)$ 最差 $O(n)$|
+|[unordered_multimap]()|哈希表|插入、删除、查找 $O(1)$ 最差 $O(n)$|
+
+
+
+
+
 
 
 
@@ -108,6 +143,9 @@ W
 [^4]:<a id="GPT-3"> [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) </a>  
 [^5]:<a id="InstructGPT"> [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155) </a>  
 [^6]:<a id="GPT-4"> [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774) </a>
+
+[^7]:*The C++ Standard Library A Tutorial and Reference Second Edition Nicolai M. Josuttis* 
+
 
 
 <!-- 1. 《算法笔记》 胡凡
